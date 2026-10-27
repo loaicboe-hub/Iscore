@@ -52,7 +52,7 @@ export default function Navbar() {
                 BUILDING
               </span>
               <span className="text-sm sm:text-base font-black tracking-tight text-[#0B1C3D] leading-tight">
-                i SCORE
+                AQAR IN
               </span>
             </div>
           </Link>
