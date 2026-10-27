@@ -31,26 +31,18 @@ export default function Navbar() {
   const isActive = (path) => location.pathname === path || (path !== '/' && location.pathname.startsWith(path));
 
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-slate-100/90 shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
-          
-          {/* Logo (Exact Match to Screenshot) */}
-          <Link to="/" className="flex items-center gap-3 group">
-            {/* Building Icon inside Arch */}
-            <div className="w-10 h-10 rounded-full border-2 border-[#0B1C3D] flex items-center justify-center p-1 text-[#0B1C3D]">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
-                <path d="M6 22V12a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v10" />
-                <path d="M10 22V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v16" />
-                <path d="M2 22h20" />
-                <circle cx="12" cy="16" r="1" fill="currentColor" />
-              </svg>
-            </div>
-            
-              </span>
-            </div>
-          </Link>
-
+ {/* Logo */}
+<Link to="/" className="flex items-center gap-2 group">
+    <div className="w-10 h-10 rounded-full border-2 border-[#0B1C3D] flex items-center justify-center p-1 text-[#0B1C3D]">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
+            <path d="M6 22V12a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v10" />
+            <path d="M10 22V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v16" />
+            <path d="M2 22h20" />
+            <circle cx="12" cy="16" r="1" fill="currentColor" />
+        </svg>
+    </div>
+    <span className="text-base font-black tracking-tight text-[#0B1C3D]">AQAR IN</span>
+</Link>  
           {/* Center Navigation Links (Exact Match) */}
           <nav className="hidden lg:flex items-center gap-6 text-sm font-semibold text-[#0B1C3D]">
             
