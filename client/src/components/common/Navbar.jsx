@@ -47,12 +47,6 @@ export default function Navbar() {
               </svg>
             </div>
             
-            <div className="flex flex-col text-left">
-              <span className="text-xs sm:text-sm font-black tracking-tight text-[#0B1C3D] leading-none uppercase">
-                <span className="text-sm sm:text-base font-black tracking-tight text-[#0B1C3D] leading-tight"> AQAR IN </span>
-              </span>
-              <span className="text-sm sm:text-base font-black tracking-tight text-[#0B1C3D] leading-tight">
-                AQAR IN
               </span>
             </div>
           </Link>
