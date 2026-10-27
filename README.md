@@ -1,4 +1,4 @@
-# 🏢 Building iScore — Egypt's Property Intelligence & Valuation Platform
+# 🏢 AQAR IN — Egypt's Property Intelligence & Valuation Platform
 
 منصة متكاملة للاستخبارات والتقييم العقاري الذكي في جمهورية مصر العربية، مبنية بأحدث معايير الويب الفاخرة مع دعم كامل لقاعدة بيانات **MySQL** و **Node.js (Express)** و **React 18 + Vite + Tailwind CSS**.
 
