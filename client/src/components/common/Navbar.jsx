@@ -31,18 +31,9 @@ export default function Navbar() {
   const isActive = (path) => location.pathname === path || (path !== '/' && location.pathname.startsWith(path));
 
   return (
- {/* Logo */}
-<Link to="/" className="flex items-center gap-2 group">
-    <div className="w-10 h-10 rounded-full border-2 border-[#0B1C3D] flex items-center justify-center p-1 text-[#0B1C3D]">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
-            <path d="M6 22V12a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v10" />
-            <path d="M10 22V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v16" />
-            <path d="M2 22h20" />
-            <circle cx="12" cy="16" r="1" fill="currentColor" />
-        </svg>
-    </div>
+ <Link to="/" className="flex items-center gap-2">
     <span className="text-base font-black tracking-tight text-[#0B1C3D]">AQAR IN</span>
-</Link>  
+</Link>
           {/* Center Navigation Links (Exact Match) */}
           <nav className="hidden lg:flex items-center gap-6 text-sm font-semibold text-[#0B1C3D]">
             
