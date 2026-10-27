@@ -49,7 +49,7 @@ export default function Navbar() {
             
             <div className="flex flex-col text-left">
               <span className="text-xs sm:text-sm font-black tracking-tight text-[#0B1C3D] leading-none uppercase">
-                BUILDING
+                <span className="text-sm sm:text-base font-black tracking-tight text-[#0B1C3D] leading-tight"> AQAR IN </span>
               </span>
               <span className="text-sm sm:text-base font-black tracking-tight text-[#0B1C3D] leading-tight">
                 AQAR IN
